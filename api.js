@@ -6,7 +6,7 @@ const size = 8000
 
 let reqOptions = {
   url: "https://imunizacao-es.saude.gov.br/_search?scroll=1m",
-  method: "GET",
+  method: "POST",
   headers: { "Authorization": "Basic aW11bml6YWNhb19wdWJsaWM6cWx0bzV0JjdyX0ArI1Rsc3RpZ2k=", "Content-Type": "application/json" },
   data: JSON.stringify({"size": size})
 }
